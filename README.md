@@ -15,6 +15,7 @@ pertemuan_2
 │   └── response.php       # fungsi sendResponse()
 ├── database
 │   └── pdcs.sql           # 3 tabel + foreign key + data contoh
+├── screenshots            # hasil testing Thunder Client
 └── start-server.bat       # server PHP di localhost:8080
 ```
 
@@ -109,3 +110,9 @@ Koneksi database gagal (`500 Internal Server Error`):
 1. Buka Thunder Client → **New Request**.
 2. Method **GET**, URL `http://localhost:8080/pertemuan_2/api/mahasiswa.php`.
 3. Klik **Send** → `Status: 200 OK`.
+
+## Hasil testing Thunder Client
+
+GET `/pertemuan_2/api/mahasiswa.php` → `200 OK`
+
+![Hasil GET mahasiswa](screenshots/get.png)
